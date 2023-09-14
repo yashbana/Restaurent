@@ -1,0 +1,53 @@
+.Section2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  width: 90%;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section_heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 45%;
+  flex-direction: column;
+  float: left;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.section_heading h1 {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.section_heading p {
+  display: flex;
+  font-size: 17px;
+  padding-top: 2rem;
+  color: #c2c5cc;
+}
+.sec_story {
+  position: relative;
+}
+
+.sec_story::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  height: 6%;
+
+  left: 0;
+  width: 64px; /* Adjust the width of the line as needed */
+  background-color: #c39d63; /* Change the color of the line as needed */
+}
+
+.section2_img {
+  display: flex;
+  width: 45%;
+
+  justify-content: space-around;
+}

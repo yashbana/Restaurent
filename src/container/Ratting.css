@@ -1,0 +1,9 @@
+.rate {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.ratting_p {
+  padding: 0;
+}

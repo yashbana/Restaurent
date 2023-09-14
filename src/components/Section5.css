@@ -1,0 +1,18 @@
+.backblack {
+  background-color: white;
+}
+
+.ratting {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 1.3rem 0.5rem;
+}
+
+.ratting_1 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 2rem;
+}

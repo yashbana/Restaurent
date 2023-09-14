@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row_1 {
+  background-color: white;
+  box-shadow: 2px 2px 15px black;
+  margin: 0 2rem;
+}

@@ -1,0 +1,46 @@
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.sec_story2 {
+  position: relative;
+  padding-bottom: 7px;
+}
+
+.sec_story2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  bottom: 0%;
+  height: 7%;
+  left: 25%;
+  width: 64px; /* Adjust the width of the line as needed */
+  background-color: #c39d63; /* Change the color of the line as needed */
+}
+
+.section3 h1 {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.section3 p {
+  display: flex;
+  font-size: 17px;
+  padding-top: 2rem;
+  color: #c2c5cc;
+  letter-spacing: 1.3px;
+}
+
+.sec3_p {
+  padding: 0 15rem;
+}
+.button_C {
+  margin-top: 3rem;
+}

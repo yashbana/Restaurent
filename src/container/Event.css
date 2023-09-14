@@ -1,0 +1,16 @@
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event img {
+  width: 100%;
+}
+
+.event h1 {
+  color: rgb(195, 157, 99);
+  font-size: 17px;
+  font-weight: 500;
+}
